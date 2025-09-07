@@ -1,0 +1,6 @@
+/* Add any custom Bootstrap overrides or additional styles here */
+
+.check-in-form, .check-out-form {
+    max-width: 600px;
+    margin: auto;
+}
