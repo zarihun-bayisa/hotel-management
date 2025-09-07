@@ -1,0 +1,24 @@
+<div class="card check-in-form">
+    <div class="card-body">
+        <h2 class="card-title">Check-In</h2>
+        <form id="checkInForm">
+            <div class="mb-3">
+                <label for="guestName" class="form-label">Guest Name:</label>
+                <input type="text" class="form-control" id="guestName" name="guestName" required>
+            </div>
+            <div class="mb-3">
+                <label for="roomNumber" class="form-label">Room Number:</label>
+                <input type="text" class="form-control" id="roomNumber" name="roomNumber" required>
+            </div>
+            <div class="mb-3">
+                <label for="checkInDate" class="form-label">Check-In Date:</label>
+                <input type="date" class="form-control" id="checkInDate" name="checkInDate" required>
+            </div>
+            <div class="mb-3">
+                <label for="nights" class="form-label">Number of Nights:</label>
+                <input type="number" class="form-control" id="nights" name="nights" min="1" value="1" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Check-In</button>
+        </form>
+    </div>
+</div>
